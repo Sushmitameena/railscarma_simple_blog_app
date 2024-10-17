@@ -25,15 +25,16 @@ To run the application locally, follow these steps:
   git clone https://github.com/Sushmitameena/railscarma_simple_blog_app
 
 2. Navigate to the project directory:
-   cd simple-blog-app
+   cd railscarma_simple_blog_app then
+   cd blog_app_statemanagement
 
-3.  Install the dependencies:
+4.  Install the dependencies:
     npm install
  
-4.  Run the development server:
+5.  Run the development server:
     npm run dev
 
-5.  Open your browser and navigate to http://localhost:3000 to view the application.
+6.  Open your browser and navigate to http://localhost:3000 to view the application.
 
  ## Application Flow:
 1. Fetching Data-
