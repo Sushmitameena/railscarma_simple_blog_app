@@ -22,22 +22,21 @@ This is a simple blog application built with Next.js that fetches and displays a
 To run the application locally, follow these steps:
 
 1. Clone the repository in the terminal:
-
-  
-   git clone https://github.com/Sushmitameena/railscarma_simple_blog_app
+  git clone https://github.com/Sushmitameena/railscarma_simple_blog_app
 
 2. Navigate to the project directory:
-   cd simple-blog-app
+   cd railscarma_simple_blog_app then
+   cd blog_app_statemanagement
 
-3.  Install the dependencies:
+4.  Install the dependencies:
     npm install
  
-4.  Run the development server:
+5.  Run the development server:
     npm run dev
 
-5.  Open your browser and navigate to http://localhost:3000 to view the application.
+6.  Open your browser and navigate to http://localhost:3000 to view the application.
 
-Application Flow:
+ ## Application Flow:
 1. Fetching Data-
 The application fetches a list of blog posts from the JSONPlaceholder API when the homepage loads. This is done in the homepage component using the fetch function.
 2. Displaying Posts-
@@ -53,7 +52,7 @@ Users can add comments to each post using a textarea. The comments are stored in
 
 
 
-FOLDER STRUCTURE
+ ## FOLDER STRUCTURE
 
 simple-blog-app/
 ├── app/
@@ -62,14 +61,14 @@ simple-blog-app/
 │   └── posts/
 │       └── [id]/
 │           └── page.js     # Detail page for individual posts
-│   ├── Codereview.js       # Code review
+│   ├── CodeReview.js       # Code review and refactored code
 ├── styles/
 │   └── global.css          # Global CSS styles
 ├── README.md               # Project documentation
 └── package.json            # Project dependencies and scripts
 
 
-Usage
+ ## Usage
 Homepage: When the application loads, it fetches and displays all blog posts from the API.
 Post Detail Page: Clicking on a post title takes you to the post detail page, where you can view the full content of the post and add comments.
 Adding Comments: In the comments section, type your comment in the provided textarea and click the "Submit Comment" button. The comment will be added and displayed below the input.
